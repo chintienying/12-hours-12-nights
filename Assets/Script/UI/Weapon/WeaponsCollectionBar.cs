@@ -5,16 +5,17 @@ using UnityEngine.UI;
 using TMPro;
 
 
-public class WeaponsCollectionBar : MonoBehaviour
+public class WeaponsCollectionBar : MonoBehaviour, IDataPersistence
 {
     private Slider slidr;
     public Image fill;
     private TextMeshProUGUI weaponCollectText;
     public GameObject slider;
     public GameObject WeaponsFound;
-
     private int weaponsCollected = 1;
-    [SerializeField] private int totalWeapons = 5;
+    private int weaponPointsSum = 0;
+
+    [SerializeField] private int weaponPointsToGo = 12;
 
     //public WeaponsCollection weaponsCollection;
 
@@ -28,43 +29,50 @@ public class WeaponsCollectionBar : MonoBehaviour
         
     }
 
+    public void LoadData(GameData data) 
+    {
+        this.weaponsCollected = data.weaponsCollected;
+        this.weaponPointsSum = data.weaponPointsSum;
+    }
+
+
+    public void SaveData(ref GameData data)
+    {
+        data.weaponsCollected = this.weaponsCollected;
+        data.weaponPointsSum = this.weaponPointsSum;
+        
+    }
+
 
     private void Start()
     {
-        GameEventManager.instance.onWeaponCollected += onWeaponCollected;
-    }
-    public void LoadData(GameData data) 
-    {
-        foreach(KeyValuePair<string, bool> pair in data.weaponsCollected) 
-        {
-            if (pair.Value) 
-            {
-                weaponsCollected++;
-            }
-        }
+        GameEventManager.instance.onWeaponCollected += CalculateWeaponFound;
     }
 
-    public void SaveData(GameData data)
-    {
-        // no data needs to be saved for this script
-        
-    }
     private void OnDestroy() 
     {
         // unsubscribe from events
-        GameEventManager.instance.onWeaponCollected -= onWeaponCollected;
+        GameEventManager.instance.onWeaponCollected -= CalculateWeaponFound;
     }
 
-    public void onWeaponCollected()
-    {
-        
-        weaponsCollected++;
+    public void CalculateWeaponFound()
+    {  
+        if(weaponPointsSum >= 0 && weaponPointsSum < 12) //第一把
+        {
+            weaponsCollected = 1;
+        } 
+
+        if(weaponPointsSum >= 12) // reach 12點的時候歸零，武器加一
+        {   
+            weaponsCollected ++;
+            weaponPointsSum = 0;
+        }
         
     }
     private void Update() 
     {
-        slidr.maxValue = totalWeapons;
-        slidr.value = weaponsCollected;
+        slidr.maxValue = weaponPointsToGo;
+        slidr.value = weaponPointsSum;
         weaponCollectText.text = weaponsCollected.ToString();
 
         

@@ -90,7 +90,7 @@ public class GameEventManager : MonoBehaviour
 
     // 收集到武器
     public event Action onWeaponCollected;
-    public void WeaponCollected()
+    public void CalculateWeaponFound()
     {
         if (onWeaponCollected != null) 
         {

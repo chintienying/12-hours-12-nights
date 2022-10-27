@@ -83,9 +83,18 @@ public class Zombie : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        speed = 0.3f;
+        speed = 0.2f;
         animator.SetInteger(anim, 2);
         life -= 1;
+        if (deadTime > 0)
+        {
+            deadTime -= Time.deltaTime;
+        }else
+        {
+            speed = 0.4f;
+            this.animator.SetInteger(anim, 1);
+
+        }
 
     }//hurt
 

@@ -5,130 +5,114 @@ using UnityEngine.UI;
 
 public class WeaponsCollection : MonoBehaviour, IDataPersistence
 {
-    [SerializeField] private string id;
-    private int weaponPointsSum = 0;
-    private SerializableDictionary<string,bool> weaponsCollected;
-    private WeaponPointsText weaponPointsText;
-
-    private bool collected = false;
-    private Button button;
-    private Image image;
-
     
-    //private SpriteRenderer visual;
+
+    //guns.Array.data[0]
+
+    private int weaponsCollected;
+
+    GameObject gun_0;
+    GameObject gun_1;
+    GameObject gun_2;
+    GameObject gun_3;
+    GameObject gun_4;
 
 
 
-
-    // Start is called before the first frame update
     private void Awake()
     {
-       
-        button = this.GetComponent<Button>();
-        image = this.GetComponent<Image>();
-  
+
+        gun_0 = gameObject.transform.GetChild(0).gameObject; 
+        gun_1 = gameObject.transform.GetChild(1).gameObject; 
+        gun_2 = gameObject.transform.GetChild(2).gameObject; 
+        gun_3 = gameObject.transform.GetChild(3).gameObject; 
+        gun_4 = gameObject.transform.GetChild(4).gameObject; 
+
     }
 
     public void LoadData(GameData data)
     {
-        data.weaponsCollected.TryGetValue(id, out collected);
-        if(collected) // 已經被收集了
-        {
-           
-            
-            button.enabled = true;
-        }
-        //this.weaponsCollected = data.weaponsCollected;
-
-        this.weaponPointsSum = data.weaponPointsSum; //load weaponPointsSum
         this.weaponsCollected = data.weaponsCollected;
-        
-
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(ref GameData data) //已經被加入收藏就不能再加
     {
-       if(data.weaponsCollected.ContainsKey(id))
-       {
-            data.weaponsCollected.Remove(id); //已經被加入收藏就不能再加
-
-       }
-       data.weaponsCollected.Add(id, collected);
+        //data.weaponsCollected = this.weaponsCollected;
     }
+
+    
 
     // Update is called once per frame
     void Start()
     {
+
+        ShowGunInInventory();
         
-        button.enabled = false;
-        this.gameObject.SetActive(false);
-        //Debug.Log(weaponPointsSum);
-        WeaponFound();
 
     }
 
-    private void WeaponFound()
+    public void ShowGunInInventory()
     {
+        
 
-        if(!collected){
+        
+        if (weaponsCollected == 1){
+            gun_0.GetComponent<Button>().interactable = true;
+            gun_0.GetComponent<Image>().enabled = true;
 
-            if(weaponPointsSum >= 0 && weaponPointsSum < 8) //第一把
-            {
-                if(this.id == "0")
-                {
-                    AddToWeaponCollection();
-                    UnityEngine.Debug.Log("0");
-                }
 
-            } 
+        }
+        if (weaponsCollected == 2)
+        {
+            gun_0.GetComponent<Button>().interactable = true;
+            gun_0.GetComponent<Image>().enabled = true;
+            gun_1.GetComponent<Button>().interactable = true;
+            gun_1.GetComponent<Image>().enabled = true;
+        
+        }
+        if (weaponsCollected == 3)
+        {
+            gun_0.GetComponent<Button>().interactable = true;
+            gun_0.GetComponent<Image>().enabled = true;
+            gun_1.GetComponent<Button>().interactable = true;
+            gun_1.GetComponent<Image>().enabled = true;
+            gun_2.GetComponent<Button>().interactable = true;
+            gun_2.GetComponent<Image>().enabled = true;
 
-            if(weaponPointsSum >= 8 && weaponPointsSum < 16) //第二把
-            {
-                if(this.id == "1")
-                {
-                    AddToWeaponCollection();
-                    UnityEngine.Debug.Log("1");
-                }
-            }
-            if(weaponPointsSum >= 16 && weaponPointsSum < 24) //第三把
-            {  
-                if(this.id == "2")
-                {
-                    AddToWeaponCollection();
-                    UnityEngine.Debug.Log("2");
-                }
+        }
+        if (weaponsCollected == 4)
+        {
+            gun_0.GetComponent<Button>().interactable = true;
+            gun_0.GetComponent<Image>().enabled = true;
+            gun_1.GetComponent<Button>().interactable = true;
+            gun_1.GetComponent<Image>().enabled = true;
+            gun_2.GetComponent<Button>().interactable = true;
+            gun_2.GetComponent<Image>().enabled = true;
+            gun_3.GetComponent<Button>().interactable = true;
+            gun_3.GetComponent<Image>().enabled = true;
 
-            }
-            if(weaponPointsSum >= 24 && weaponPointsSum < 32) //第四把
-            {  
-                if(this.id == "3")
-                {
-                    AddToWeaponCollection();
-                     UnityEngine.Debug.Log("3");
-                }
+        }
+        if (weaponsCollected == 5)
+        {
+            gun_0.GetComponent<Button>().interactable = true;
+            gun_0.GetComponent<Image>().enabled = true;
+            gun_1.GetComponent<Button>().interactable = true;
+            gun_1.GetComponent<Image>().enabled = true;
+            gun_2.GetComponent<Button>().interactable = true;
+            gun_2.GetComponent<Image>().enabled = true;
+            gun_3.GetComponent<Button>().interactable = true;
+            gun_3.GetComponent<Image>().enabled = true;
+            gun_4.GetComponent<Button>().interactable = true;
+            gun_4.GetComponent<Image>().enabled = true;
 
-            }
-            if(weaponPointsSum >= 32) //第五把
-            {
-                if(this.id == "4")
-                {
-                    AddToWeaponCollection();
-                     UnityEngine.Debug.Log("4");
-                }
-
-            }
-            
         }
         
 
-    }
-    private void AddToWeaponCollection()
-    {
-        collected = true;
-        this.gameObject.SetActive(true);
-        button.enabled = true;
-        GameEventManager.instance.WeaponCollected();
 
+    
 
     }
+
+
+
 }

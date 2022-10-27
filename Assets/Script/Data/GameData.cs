@@ -17,7 +17,7 @@ public class GameData
 
     public int barricadeAfterDamage; // 破壞後的護欄點數 （barricadeInitial - barricadeDamage = barricadeAfterDamage）
     public int barricadeDamage; // 破壞護欄點數 
-    public SerializableDictionary<string,bool> weaponsCollected; // 槍槍收藏
+    public int weaponsCollected; // 槍槍收藏
     public int weaponPointsSum; //  每局累加的武器點數
 
 
@@ -38,7 +38,7 @@ public class GameData
         this.barricadeAfterDamage = 100; // scene C will appear
         this.barricadeDamage = 100;
         // 
-        weaponsCollected = new SerializableDictionary<string, bool>();
+        this.weaponsCollected = 1;
         this.weaponPointsSum = 0; // 每6分拿到一把槍，0,6,12,18,24
 
 

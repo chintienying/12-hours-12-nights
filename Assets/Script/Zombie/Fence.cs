@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Fence : MonoBehaviour
+public class Fence : MonoBehaviour, IDataPersistence
 {
 
     public int barricadeDamage = 100;
@@ -31,7 +31,7 @@ public class Fence : MonoBehaviour
        data.barricadeDamage = this.barricadeDamage;
     }
     
-    void Start()
+    private void Start()
     {
         isFencedestroyed = false;
         bc = gameObject.GetComponent<BoxCollider2D>();
@@ -52,7 +52,7 @@ public class Fence : MonoBehaviour
         {
             isFencedestroyed = true;
             bc.enabled = false;
-            //Debug.Log("destroy!");
+            
         }
         
 

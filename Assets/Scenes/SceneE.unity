@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6527132}
-  - component: {fileID: 6527136}
   - component: {fileID: 6527134}
   - component: {fileID: 6527133}
   - component: {fileID: 6527135}
@@ -257,19 +256,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6527136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6527131}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: gun_0
 --- !u!1 &96146553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1160,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 773619911}
-  - component: {fileID: 773619915}
   - component: {fileID: 773619913}
   - component: {fileID: 773619912}
   - component: {fileID: 773619914}
@@ -1299,19 +1284,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &773619915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773619910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: gun_4
 --- !u!1 &832979834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1472,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 958486074}
-  - component: {fileID: 958486078}
   - component: {fileID: 958486076}
   - component: {fileID: 958486075}
   - component: {fileID: 958486077}
@@ -1649,19 +1620,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &958486078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958486073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: gun_1
 --- !u!1 &962151577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,7 +2547,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1776947765}
-  - component: {fileID: 1776947769}
   - component: {fileID: 1776947767}
   - component: {fileID: 1776947766}
   - component: {fileID: 1776947768}
@@ -2714,19 +2671,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1776947769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776947764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: gun_3
 --- !u!1 &1814224373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2736,6 +2680,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1814224374}
+  - component: {fileID: 1814224375}
   m_Layer: 5
   m_Name: Guns_button
   m_TagString: Untagged
@@ -2768,6 +2713,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1814224375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814224373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1955659518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,7 +2734,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1955659519}
-  - component: {fileID: 1955659523}
   - component: {fileID: 1955659521}
   - component: {fileID: 1955659520}
   - component: {fileID: 1955659522}
@@ -2902,19 +2858,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1955659523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955659518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c24408fa090d46b89967f6bb55e3c8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: gun_2
 --- !u!1 &1993853055
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,13 +26,7 @@ public class WeaponChoosing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // gun_0 = GameObject.Find("gun_0").GetComponent<Button>();
-        // gun_1 = GameObject.Find("gun_1").GetComponent<Button>();
-        // gun_2 = GameObject.Find("gun_2").GetComponent<Button>();
-        // gun_3 = GameObject.Find("gun_3").GetComponent<Button>();
-        // gun_4 = GameObject.Find("gun_4").GetComponent<Button>();
-        // button = this.GetComponent<Button>();
-        // image = this.GetComponent<Image>();
+
         remove_main = GameObject.Find("remove_main");
         remove_backup = GameObject.Find("remove_backup");
 

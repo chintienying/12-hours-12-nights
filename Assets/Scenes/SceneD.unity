@@ -523,7 +523,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 69482673}
-  - component: {fileID: 69482676}
   - component: {fileID: 69482675}
   - component: {fileID: 69482674}
   m_Layer: 5
@@ -650,22 +649,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69482672}
   m_CullTransparentMesh: 1
---- !u!114 &69482676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69482672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b627a13925d154d7dae7f05626545a05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fill: {fileID: 0}
-  slider: {fileID: 0}
-  WeaponsFound: {fileID: 0}
-  totalWeapons: 5
 --- !u!1 &217032830
 GameObject:
   m_ObjectHideFlags: 0
