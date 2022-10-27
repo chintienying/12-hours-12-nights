@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: c02feff86fb4a4f91b7e508dfbde7e2b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 5143
+        width: 524
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28bd061e7dbd4825acf6f1874dfe978
+      internalID: -238888853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_1
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 5131
+        width: 770
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7cb426a14eb43d8aeb6a8c8d2bfcd3
+      internalID: 796885394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4709
+        width: 524
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5bd168bfab45119fc948567df1366
+      internalID: 1659835817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_3
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 4645
+        width: 562
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b43de35d1bbd4ed884e9a4e22468919
+      internalID: 39846386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_4
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 4663
+        width: 884
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c70902f29c34979950f4f7a08f6bd5
+      internalID: 309088227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 4235
+        width: 413
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e590b4aa5e92844ba8743f08bd5908b3
+      internalID: 445650482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_6
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 4131
+        width: 770
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4470bd5a1a81f4124b06006daa65ec41
+      internalID: -552314997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_7
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3856
+        width: 517
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a9ded70508447beac47ffa41d07750
+      internalID: -1245942358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 3801
+        width: 627
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f135bae99d75d4c5484895c776f625fa
+      internalID: 34345833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3308
+        width: 647
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb56623042a8b498bbcee34303b6715f
+      internalID: 649138717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_10
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 3299
+        width: 448
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df133017bc6e74bf0b675e135aa2e13e
+      internalID: -823439433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_11
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3337
+        width: 1463
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095e89a5e57314d02800f31fa7dea607
+      internalID: 846781918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2753
+        width: 815
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c769dc44fb849b3936c9e6e6aa7861
+      internalID: 740496629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2671
+        width: 1431
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebb92ad4adc74a58909906c43ccf211
+      internalID: 926609492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_14
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2109
+        width: 1625
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbef29fa9638455282f93d01f1b8e45
+      internalID: 1529817075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_15
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1539
+        width: 1740
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaf8fa76860541df8b23165644e90f5
+      internalID: -847069607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 1851
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51ad65e1004f45fdb872d172bd30c96
+      internalID: -1767654893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_17
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 809
+        width: 1832
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27c4c7a4fda4db594b9691b353774b
+      internalID: -1274477586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 1404
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe44f4a98364e09aa28989c1f46567
+      internalID: -2101362956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeArt_GunConstructionKit_v03_show_19
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 0
+        width: 1143
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c956eaa4b8d64598af0aa86d06bb77e
+      internalID: 460836930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FreeArt_GunConstructionKit_v03_show_8: 34345833
+      FreeArt_GunConstructionKit_v03_show_12: 740496629
+      FreeArt_GunConstructionKit_v03_show_10: -823439433
+      FreeArt_GunConstructionKit_v03_show_5: 445650482
+      FreeArt_GunConstructionKit_v03_show_7: -1245942358
+      FreeArt_GunConstructionKit_v03_show_19: 460836930
+      FreeArt_GunConstructionKit_v03_show_14: 1529817075
+      FreeArt_GunConstructionKit_v03_show_2: 1659835817
+      FreeArt_GunConstructionKit_v03_show_11: 846781918
+      FreeArt_GunConstructionKit_v03_show_0: -238888853
+      FreeArt_GunConstructionKit_v03_show_13: 926609492
+      FreeArt_GunConstructionKit_v03_show_15: -847069607
+      FreeArt_GunConstructionKit_v03_show_3: 39846386
+      FreeArt_GunConstructionKit_v03_show_4: 309088227
+      FreeArt_GunConstructionKit_v03_show_17: -1274477586
+      FreeArt_GunConstructionKit_v03_show_6: -552314997
+      FreeArt_GunConstructionKit_v03_show_18: -2101362956
+      FreeArt_GunConstructionKit_v03_show_1: 796885394
+      FreeArt_GunConstructionKit_v03_show_16: -1767654893
+      FreeArt_GunConstructionKit_v03_show_9: 649138717
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

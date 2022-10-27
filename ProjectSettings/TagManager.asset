@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - fence
+  - zombie
+  - fence2
+  - WaveSpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - enemy
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3828882979
+    locked: 0
+  - name: fence2
+    uniqueID: 1820644847
+    locked: 0
+  - name: fence
+    uniqueID: 137389803
+    locked: 0
+  - name: zombie
+    uniqueID: 4201359091
+    locked: 0
+  - name: bg
+    uniqueID: 3168482097
+    locked: 0
+  - name: player
+    uniqueID: 3903647515
+    locked: 0
+  - name: ui
+    uniqueID: 3882285677
+    locked: 0

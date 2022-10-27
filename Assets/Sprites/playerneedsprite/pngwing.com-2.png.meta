@@ -1,0 +1,1301 @@
+fileFormatVersion: 2
+guid: 91852e92a7f6146829747ba6e6bc49eb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngwing.com-2_0
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 920
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aa68abf431b4bfb870a83c563ba32c
+      internalID: -43032738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_1
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 920
+        width: 104
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b07e776939a453b9921c8de024304f
+      internalID: 426788767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_2
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 920
+        width: 106
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85121ce1c9c594df3a69f43bbe0d1132
+      internalID: -917494368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 920
+        width: 111
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1acd73e096c54dd58169ee436da4d6e
+      internalID: -1707301584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_4
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 920
+        width: 104
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b96b1bc14bb45bcb3f99a815e55530
+      internalID: 356744589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_5
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 920
+        width: 107
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcae47e43898f4b75ab6ffcc755aad72
+      internalID: -2026017588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_6
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 920
+        width: 105
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02abaaa111a2d4c968ede934e7af5df7
+      internalID: 319582273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_7
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 920
+        width: 96
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a54ad637ec04bc6a3005cd3508ff53
+      internalID: 517115909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_8
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 920
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1061f432dbf674fdfb46488a223b3205
+      internalID: 916386849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 742
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2664ac9fdcda24b5abed3eda46c1daff
+      internalID: -365338407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 858
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e179bc025d24162ad374ebde5c0c82
+      internalID: -1479441682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 741
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dcb0567c24a4af6b48306aaa4efa42
+      internalID: -453684812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 846
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524be0b750f74f63b30bd6f0c8a5c80
+      internalID: -517634023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 741
+        width: 105
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fc456e6171d458cbb8beb665e42e80
+      internalID: -1280521628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_14
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 741
+        width: 199
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b665e8dad600f427e9d5acdc0ac1e823
+      internalID: -890383468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_15
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 852
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ebfc4efdd6d4dafafedc5659e4271c
+      internalID: -410828024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_16
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 741
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98c93843bab9404ebf934692ccfb349
+      internalID: -547353525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_17
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 841
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803cfecb8b8414db889045e9a3a491d1
+      internalID: 1641481986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_18
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 741
+        width: 107
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d4c92cad434130aca78b79e967f5a
+      internalID: 1914566665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_19
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 838
+        width: 74
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de2a4b4cbad345da85a4c6273d329ee
+      internalID: 1840846156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_20
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 741
+        width: 122
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a26343ee5c74edfa6f2407f882648c
+      internalID: -44159945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_21
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 741
+        width: 96
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad106b78fe4de482daf14b4e97ee0dc9
+      internalID: -1012707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_22
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 741
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b9f8a5b7885471cad276845de5952b
+      internalID: 2136819471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 565
+        width: 86
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e229623b5624e15a6608ce6313477c
+      internalID: -1147495600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_24
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 684
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87266a30b345f47fba194014088d5f36
+      internalID: -379219844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 565
+        width: 103
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44afdcb7810d34ec2a10ee480ed9d017
+      internalID: -1600029018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_26
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 675
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d6c354a8144e3a9f089059bb2c13c
+      internalID: 1234453899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_27
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 566
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39eb711ea5644dd188d4707077edf56
+      internalID: 46686649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 566
+        width: 199
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34979e23825a44cf9acd6b20881723ca
+      internalID: 1834973226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_29
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 677
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e030c6076c4c8c82617e72c997068
+      internalID: -776597394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_30
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 565
+        width: 104
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a423c026b7d40cb90f4ad7b7ef7f4e
+      internalID: 1032333027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_31
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 668
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff576bd3b1514d818cddb50571104a7
+      internalID: -49580700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_32
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 566
+        width: 94
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714b9f1529814375901833ce2283664
+      internalID: -2013737271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_33
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 670
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c467b2ea288e410abfe7a27b4df1168
+      internalID: -297117572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_34
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 565
+        width: 97
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218953ded2b7c4bf5a3dcec92d83aa8f
+      internalID: 1853602804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_35
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 566
+        width: 96
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993140190abfe41a5a39aa838b7f7a42
+      internalID: -84567540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_36
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 565
+        width: 106
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a5b53126cef405db3ab0a94f8746cc
+      internalID: 704754453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_37
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 392
+        width: 107
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2408ec88428b4c9ab38f161edd1d4c6
+      internalID: -544681451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_38
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 392
+        width: 103
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0340d466fefa4b4c87ace465b7918ad
+      internalID: 1780942380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_39
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 392
+        width: 98
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce65cb7397c344db8f40e521642adac
+      internalID: -825397116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_40
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 392
+        width: 131
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd813fc0ba904ac89af98e6ef1342bf
+      internalID: -808449614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_41
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 392
+        width: 122
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7a2d0037e564e03a00cedd6e486e66
+      internalID: 1235545422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_42
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 392
+        width: 103
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7542f717f974c55bbecd37719d8e70
+      internalID: 1259071599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_43
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 392
+        width: 108
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e94ac823c52b42b9ba1aa7380601909
+      internalID: 477773409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_44
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 392
+        width: 106
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291889656dbf044a497c450a080bcdb5
+      internalID: -257739336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_45
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 211
+        width: 92
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65753be8bf27486a8fdac6aeb1dcccb
+      internalID: -217110382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_46
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 211
+        width: 101
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e691d828c94042d091f33f59afe82c1
+      internalID: 620592507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_47
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 211
+        width: 106
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccb1f0456d9249febd903d463c7a495
+      internalID: -1652666092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_48
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 211
+        width: 106
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f913ba76cc84af8aca6844cb0ee20b
+      internalID: -1528181346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 25
+        width: 158
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8570abef08b044e408d983a8826ee43a
+      internalID: 1383600144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_50
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 25
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91501147b32fc49049e9924204ac3939
+      internalID: -1645760886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_51
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 25
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b7133acf0aa4c38a490d9d5cc49e25
+      internalID: 693358408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngwing.com-2_52
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 25
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eb734f05d86498fb55d6c0caac7393
+      internalID: -1599370730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngwing.com-2_47: -1652666092
+      pngwing.com-2_50: -1645760886
+      pngwing.com-2_41: 1235545422
+      pngwing.com-2_6: 319582273
+      pngwing.com-2_46: 620592507
+      pngwing.com-2_15: -410828024
+      pngwing.com-2_45: -217110382
+      pngwing.com-2_11: -453684812
+      pngwing.com-2_3: -1707301584
+      pngwing.com-2_23: -1147495600
+      pngwing.com-2_16: -547353525
+      pngwing.com-2_1: 426788767
+      pngwing.com-2_21: -1012707
+      pngwing.com-2_35: -84567540
+      pngwing.com-2_49: 1383600144
+      pngwing.com-2_26: 1234453899
+      pngwing.com-2_30: 1032333027
+      pngwing.com-2_4: 356744589
+      pngwing.com-2_8: 916386849
+      pngwing.com-2_38: 1780942380
+      pngwing.com-2_22: 2136819471
+      pngwing.com-2_14: -890383468
+      pngwing.com-2_43: 477773409
+      pngwing.com-2_51: 693358408
+      pngwing.com-2_2: -917494368
+      pngwing.com-2_24: -379219844
+      pngwing.com-2_9: -365338407
+      pngwing.com-2_37: -544681451
+      pngwing.com-2_36: 704754453
+      pngwing.com-2_17: 1641481986
+      pngwing.com-2_33: -297117572
+      pngwing.com-2_7: 517115909
+      pngwing.com-2_28: 1834973226
+      pngwing.com-2_48: -1528181346
+      pngwing.com-2_10: -1479441682
+      pngwing.com-2_34: 1853602804
+      pngwing.com-2_5: -2026017588
+      pngwing.com-2_52: -1599370730
+      pngwing.com-2_29: -776597394
+      pngwing.com-2_32: -2013737271
+      pngwing.com-2_13: -1280521628
+      pngwing.com-2_42: 1259071599
+      pngwing.com-2_0: -43032738
+      pngwing.com-2_20: -44159945
+      pngwing.com-2_44: -257739336
+      pngwing.com-2_12: -517634023
+      pngwing.com-2_40: -808449614
+      pngwing.com-2_25: -1600029018
+      pngwing.com-2_39: -825397116
+      pngwing.com-2_18: 1914566665
+      pngwing.com-2_19: 1840846156
+      pngwing.com-2_31: -49580700
+      pngwing.com-2_27: 46686649
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
