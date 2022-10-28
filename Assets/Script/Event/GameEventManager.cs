@@ -98,6 +98,14 @@ public class GameEventManager : MonoBehaviour
         }
         
     }
+    public void ShowGunInInventory()
+    {
+        if (onWeaponCollected != null) 
+        {
+            onWeaponCollected();
+        }
+        
+    }
       
 
 

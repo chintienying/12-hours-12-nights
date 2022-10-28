@@ -12,7 +12,7 @@ public class Zombie : MonoBehaviour
     private PlayerLife playerLife;
     //------------------------------
 
-    public float deadTime = 0.6f;
+    public float deadTime = 0.3f;
     public string anim = "state1";
     public int damage = 10;
     public bool IsDead;
@@ -91,7 +91,7 @@ public class Zombie : MonoBehaviour
             deadTime -= Time.deltaTime;
         }else
         {
-            speed = 0.4f;
+            speed = 0.5f;
             this.animator.SetInteger(anim, 1);
 
         }
@@ -102,8 +102,9 @@ public class Zombie : MonoBehaviour
     {
 
      
-            rb.bodyType = RigidbodyType2D.Static;
+            
             animator.SetInteger(anim, 4);
+            speed = 0.0f;
             if (deadTime > 0)
             {
                 deadTime -= Time.deltaTime;
