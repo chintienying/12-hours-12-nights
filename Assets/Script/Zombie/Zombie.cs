@@ -12,7 +12,7 @@ public class Zombie : MonoBehaviour
     private PlayerLife playerLife;
     //------------------------------
 
-    public float deadTime = 1f;
+    public float deadTime = 0.6f;
     public string anim = "state1";
     public int damage = 10;
     public bool IsDead;

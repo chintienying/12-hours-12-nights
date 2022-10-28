@@ -27,14 +27,20 @@ public class WeaponChoosing : MonoBehaviour
     void Start()
     {
 
-        remove_main = GameObject.Find("remove_main");
-        remove_backup = GameObject.Find("remove_backup");
+        remove_main = GameObject.Find("Button/remove_main");
+        remove_backup = GameObject.Find("Button/remove_backup");
+        remove_main.GetComponent<Button>().enabled = false;
+        remove_main.GetComponent<Image>().enabled = false;
+        remove_backup.GetComponent<Button>().enabled = false;
+        remove_backup.GetComponent<Image>().enabled = false;
+
+
 
   
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if(remove_main.GetComponent<Image>().enabled == false)
         {
@@ -59,7 +65,7 @@ public class WeaponChoosing : MonoBehaviour
         {
             foreach(GameObject gun in WeaponsCollection)
             {
-                if(gun.GetComponent<Button>().enabled == true)
+                if(gun.GetComponent<Button>().interactable == true)
                 {
                     AddToMain();   
                 }
@@ -69,7 +75,7 @@ public class WeaponChoosing : MonoBehaviour
         {
            foreach(GameObject gun in WeaponsCollection)
             {
-                if(gun.GetComponent<Button>().enabled == true)
+                if(gun.GetComponent<Button>().interactable == true)
                 {
 
                     AddToMain();
@@ -80,7 +86,7 @@ public class WeaponChoosing : MonoBehaviour
         {
             foreach(GameObject gun in WeaponsCollection)
             {
-                if(gun.GetComponent<Button>().enabled == true)
+                if(gun.GetComponent<Button>().interactable == true)
                 {
                     AddToBackup();
                 }
@@ -118,7 +124,7 @@ public class WeaponChoosing : MonoBehaviour
     {
 
         remove_main.GetComponent<Button>().enabled = true;
-         remove_main.GetComponent<Image>().enabled = true;
+        remove_main.GetComponent<Image>().enabled = true;
         main = true;
 
     }
@@ -142,7 +148,7 @@ public class WeaponChoosing : MonoBehaviour
     public void RemoveBackupWeapon()
     {
         remove_backup.GetComponent<Button>().enabled = false;
-         remove_backup.GetComponent<Image>().enabled = true;
+        remove_backup.GetComponent<Image>().enabled = true;
         backup = false;
 
     }

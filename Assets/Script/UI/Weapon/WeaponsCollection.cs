@@ -18,16 +18,33 @@ public class WeaponsCollection : MonoBehaviour, IDataPersistence
     GameObject gun_4;
 
 
-
-    private void Awake()
+    private void Start()
     {
-
+        GameEventManager.instance.onWeaponCollected += ShowGunInInventory;
         gun_0 = gameObject.transform.GetChild(0).gameObject; 
         gun_1 = gameObject.transform.GetChild(1).gameObject; 
         gun_2 = gameObject.transform.GetChild(2).gameObject; 
         gun_3 = gameObject.transform.GetChild(3).gameObject; 
-        gun_4 = gameObject.transform.GetChild(4).gameObject; 
+        gun_4 = gameObject.transform.GetChild(4).gameObject;
 
+            gun_0.GetComponent<Button>().interactable = false;
+            gun_0.GetComponent<Image>().enabled = false;
+            gun_1.GetComponent<Button>().interactable = false;
+            gun_1.GetComponent<Image>().enabled = false;
+            gun_2.GetComponent<Button>().interactable = false;
+            gun_2.GetComponent<Image>().enabled = false;
+            gun_3.GetComponent<Button>().interactable = false;
+            gun_3.GetComponent<Image>().enabled = false;
+            gun_4.GetComponent<Button>().interactable = false;
+            gun_4.GetComponent<Image>().enabled = false;
+        
+        ShowGunInInventory();
+    }
+
+    private void OnDestroy() 
+    {
+        // unsubscribe from events
+        GameEventManager.instance.onWeaponCollected -= ShowGunInInventory;
     }
 
     public void LoadData(GameData data)
@@ -41,15 +58,6 @@ public class WeaponsCollection : MonoBehaviour, IDataPersistence
     }
 
     
-
-    // Update is called once per frame
-    void Start()
-    {
-
-        ShowGunInInventory();
-        
-
-    }
 
     public void ShowGunInInventory()
     {
