@@ -38,7 +38,7 @@ public class WeaponsCollection : MonoBehaviour, IDataPersistence
             gun_4.GetComponent<Button>().interactable = false;
             gun_4.GetComponent<Image>().enabled = false;
         
-        ShowGunInInventory();
+        
     }
 
     private void OnDestroy() 
